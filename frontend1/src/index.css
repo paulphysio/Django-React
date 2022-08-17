@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bloglist{
+  text-decoration: none;
+  padding: 20px;
+  border-color:1px aliceblue;
+}
+.bloglist:hover {
+  color: gray;
+  box-shadow: 1px 3px 5px rgba(238, 170, 170, 0.4);
+  transition: 500ms;
+}
